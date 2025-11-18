@@ -118,7 +118,7 @@ extern void tusb_hal_nrf_power_event(uint32_t event);
 #define DFU_DBL_RESET_MEM               0x20007F7C
 
 #define BOOTLOADER_VERSION_REGISTER     NRF_TIMER2->CC[0]
-#define DFU_SERIAL_STARTUP_INTERVAL     1000
+#define DFU_SERIAL_STARTUP_INTERVAL     20000
 
 // Allow for using reset button essentially to swap between application and bootloader.
 // This is controlled by a flag in the app and is the behavior of CPX and all Arcade boards when using MakeCode.
