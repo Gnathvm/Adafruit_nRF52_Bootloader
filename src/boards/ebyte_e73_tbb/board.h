@@ -28,9 +28,9 @@
 /*------------------------------------------------------------------*/
 /* LED
  *------------------------------------------------------------------*/
-#define LEDS_NUMBER        2
-#define LED_PRIMARY_PIN    17 // Red  - named "LED1"
-#define LED_SECONDARY_PIN  18 // Blue - named "LED2" (also a red one on the Test Board)
+#define LEDS_NUMBER        0
+#define LED_PRIMARY_PIN    0
+#define LED_SECONDARY_PIN  0
 #define LED_STATE_ON       0
 
 /*------------------------------------------------------------------*/
@@ -65,3 +65,4 @@
 #define UF2_INDEX_URL       "https://www.ebyte.com/en/product-view-news.aspx?id=889"
 
 #endif // _EBYTE_E73_TBB_H
+
